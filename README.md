@@ -3,7 +3,7 @@ This Toolbox contains near all evaluation metrics for salient object detection i
    
 ## Citation
 ```
-@article{Saliency-Evaluation-Toolbox,
+@article{Saliency-Evaluation-Toolbox,   
     Author = {Wei Ji},
     Title = {Evaluation Toolbox for Salient Object Detection.},
     Journal = {https://github.com/jiwei0921/Saliency-Evaluation-Toolbox/},
