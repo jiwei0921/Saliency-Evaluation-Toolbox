@@ -1,7 +1,7 @@
 # Saliency-Evaluation-Toolbox
 This Toolbox contains near all evaluation metrics for salient object detection including E-measure, S-measure, F-measure, MAE scores and PR curves or bar metrics.
    
-## Citation
+## Citation       
 ```
 @article{Saliency-Evaluation-Toolbox,   
     Author = {Wei Ji},
