@@ -10,7 +10,7 @@ This Toolbox contains near all evaluation metrics for salient object detection i
     Year = {2019}
 }
 ```    
-
+                
 ## Requirement 
 * MATLAB
 
