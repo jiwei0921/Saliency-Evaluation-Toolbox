@@ -1,5 +1,14 @@
 # Saliency-Evaluation-Toolbox
-This Toolbox contains near all evaluation metrics for salient object detection including E-measure, S-measure, F-measure, MAE scores and PR curves or bar metrics.   
+This Toolbox contains near all evaluation metrics for salient object detection including:
+
++ E-measure   
++ S-measure   
++ weighted F-measure   
++ F-measure    
++ MAE scores    
++ PR curves or bar metrics
+
+You can easily use this Tool Box to evaluate SOD results.     
    
 ## Citation          
 ```
@@ -14,7 +23,7 @@ This Toolbox contains near all evaluation metrics for salient object detection i
 ## Requirement 
 * MATLAB
 
-## Test E/S/F-measure and MAE scores
+## Test E/S/weighted F/F-measure and MAE scores
 1. Set the path of GT and sal_map in main.m
 2. run main.m
 
