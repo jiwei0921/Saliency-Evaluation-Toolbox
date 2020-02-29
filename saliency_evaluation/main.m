@@ -14,6 +14,7 @@ Smeasure=zeros(1,imgNUM);
 Emeasure=zeros(1,imgNUM);
 Fmeasure=zeros(1,imgNUM);
 MAE=zeros(1,imgNUM);
+F_wm=zeros(1,imgNUM);
 
 tic;
 for i = 1:imgNUM
@@ -54,6 +55,7 @@ for i = 1:imgNUM
     Fmeasure(i) = temp(3);
    
     MAE(i) = mean2(abs(double(logical(gt)) - sal));
+    F_wm(i) = WFb(sal, logical(gt));
     
     %You can change the method of binarization method. As an example, here just use adaptive threshold.
     threshold =  2* mean(sal(:)) ;
@@ -72,7 +74,8 @@ Sm = mean2(Smeasure);
 Fm = mean2(Fmeasure);
 Em = mean2(Emeasure);
 mae = mean2(MAE);
+F_wm = mean2(F_wm);
 
-fprintf('(%s Dataset)Emeasure: %.3f; Smeasure %.3f; Fmeasure %.3f; MAE: %.3f.\n',dataset,Em, Sm, Fm, mae);
+fprintf('(%s Dataset)Emeasure: %.3f; Smeasure %.3f; weighted_F: %.3f; Fmeasure %.3f; MAE: %.3f.\n',dataset,Em, Sm, F_wm, Fm, mae);
 
 
