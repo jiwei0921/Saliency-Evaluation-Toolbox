@@ -31,7 +31,7 @@ You can easily use this Tool Box to evaluate SOD results.
 ### 1 create .m file
 1. put your test_images in ./0 PR/Dataset
 2. set your_path and run ./0 PR/PR_sal2mat.m
-### 2 prduce PR curves or PR bar
+### 2 prduce PR curves or PR bar 
 1. run ./0 PR/code_bar.m or code_or.m    
 
       
