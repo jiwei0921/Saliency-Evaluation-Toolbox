@@ -31,7 +31,8 @@ xlabel('Recall');
 ylabel('Precision');
 
  legend(...
-dirpath(1).name(1:end-4),dirpath(2).name(1:end-4),dirpath(3).name(1:end-4),dirpath(4).name(1:end-4),dirpath(5).name(1:end-4),dirpath(6).name(1:end-4),dirpath(7).name(1:end-4),dirpath(8).name(1:end-4)),dirpath(9).name(1:end-4),dirpath(10).name(1:end-4),dirpath(11).name(1:end-4),dirpath(12).name(1:end-4);%,dirpath(5).name(1:end-4),dirpath(6).name(1:end-4),dirpath(7).name(1:end-4));%,dirpath(4).name(1:end-4))%,dirpath(5).name(1:end-4),dirpath(6).name(1:end-4))
+dirpath(1).name(1:end-4),dirpath(2).name(1:end-4));
+%,dirpath(3).name(1:end-4),dirpath(4).name(1:end-4),dirpath(5).name(1:end-4),dirpath(6).name(1:end-4),dirpath(7).name(1:end-4),dirpath(8).name(1:end-4)),dirpath(9).name(1:end-4),dirpath(10).name(1:end-4),dirpath(11).name(1:end-4),dirpath(12).name(1:end-4);%,dirpath(5).name(1:end-4),dirpath(6).name(1:end-4),dirpath(7).name(1:end-4));%,dirpath(4).name(1:end-4))%,dirpath(5).name(1:end-4),dirpath(6).name(1:end-4))
 %,dirpath(2).name(1:end-4),dirpath(3).name(1:end-4),dirpath(4).name(1:end-4),dirpath(5).name(1:end-4),dirpath(6).name(1:end-4),dirpath(7).name(1:end-4),dirpath(8).name(1:end-4)
 %,dirpath(5).name(1:end-4),dirpath(6).name(1:end-4),dirpath(7).name(1:end-4),dirpath(8).name(1:end-4),dirpath(9).name(1:end-4),dirpath(10).name(1:end-4)
 %dirpath(1).name(1:end-4),dirpath(2).name(1:end-4),dirpath(3).name(1:end-4),dirpath(4).name(1:end-4),dirpath(5).name(1:end-4));,dirpath(6).name(1:end-4),dirpath(7).name(1:end-4),dirpath(8).name(1:end-4),dirpath(9).name(1:end-4),dirpath(10).name(1:end-4),dirpath(11).name(1:end-4),dirpath(12).name(1:end-4),dirpath(13).name(1:end-4)
