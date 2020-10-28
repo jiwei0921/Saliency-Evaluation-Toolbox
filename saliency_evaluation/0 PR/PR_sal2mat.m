@@ -2,10 +2,10 @@
 clc;clear;close all;
 
 % set the ground truth path
-gt_dir = { 'LFSD', '.\Dataset\LFSD\GT\',[],[] 'png'};
+gt_dir = { 'LFSD', './Dataset/LFSD/GT/',[],[] 'png'};
 
 % set the save path
-basedir = '.\PR_results\';
+basedir = './PR_results/';
 %%
 %mkdir(basedir);
 
@@ -13,7 +13,7 @@ basedir = '.\PR_results\';
 alg_dir = ...                                           
 {  
 % set the saliency map path as well as name.
- {'your_name', '.\Dataset\LFSD\sal_map', [],'', 'png'};  %1. RGBD results\MPCI
+ {'your_name', './Dataset/LFSD/sal_map', [],'', 'png'};  %1. RGBD results\MPCI
 % {'Ours', '/home/wlz/Downloads/caffe-future/models/finetune1/Experiments/ECSSD/map_Refcn-filter/', [],'' 'jpg'};
 };
 
