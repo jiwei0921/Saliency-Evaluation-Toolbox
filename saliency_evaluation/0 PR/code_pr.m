@@ -2,7 +2,7 @@ clc;
 clear;
 % path='/media/iiau/win7_file/kyq/3/mat4/';
 %path = './';
-path = '.\PR_results\';
+path = './PR_results/';
 dirpath=dir([path '*.mat']);
 %dirpath{0} = dir([path '(12w_cwm).mat']);
 %dirpath{1} = dir([path '(18w_ori).mat']);
