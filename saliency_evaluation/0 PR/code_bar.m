@@ -1,7 +1,7 @@
 clc;
 clear;
 %path='C:\Users\Administrator\Desktop\mat-cvpr17_v1\ECSSD\';
-path='.\PR_results\';
+path='./PR_results/';
 dirpath=dir([path '*.mat']);
 method1 = cell(length(dirpath),3);
 
@@ -14,7 +14,7 @@ method2 = cell(length(dirpath),1);
 for i=1:length(dirpath)
   load([path dirpath(i).name]);
   Fmeasure=[Fmeasure,mFmeasure];
-  aAUC=[aAUC,AUC];                     %AUC 图像修改部分
+  aAUC=[aAUC,AUC];                     %AUC 鍥惧儚淇敼閮ㄥ垎
 %  method2(i)=alg_dir{i}(1);
   method2{i}=dirpath(i).name(1:end-4);
   
@@ -26,7 +26,7 @@ end
         set( gca, 'xtick', 1:1:length(dirpath) ),
   
         set( gca ,'xticklabels',  method2 , 'fontsize', 8 );
-        legend('Precision','Recall','Fmeasure','AUC');      %AUC 图像修改部分
+        legend('Precision','Recall','Fmeasure','AUC');      %AUC 鍥惧儚淇敼閮ㄥ垎
         %legend('Precision','Recall','Fmeasure');
               grid on;
    %     saveas(  figure(5), [basedir,'SED1_bar.fig']);
