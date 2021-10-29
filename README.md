@@ -7,6 +7,7 @@ This Toolbox contains near all evaluation metrics for salient object detection i
 + F-measure    
 + MAE scores    
 + PR curves or bar metrics
++ Boundary Displacement Error
 
 You can easily use this Tool Box to evaluate SOD results.     
    
@@ -35,10 +36,11 @@ You can easily use this Tool Box to evaluate SOD results.
 1. run ./0 PR/code_bar.m or code_or.m    
 
       
-## Boundary-aware Metrics 
-1. It contains Bu and BDE, which borrows from [this paper](https://arxiv.org/pdf/2108.03551.pdf).
+## Boundary Displacement Error Metric 
+1. It contains BDE metric, which borrows from [this paper](https://arxiv.org/pdf/2108.03551.pdf).
 2. Set the path of GT and sal_map in main.m
-3. run main.m ([Code](https://pan.baidu.com/s/1f6-Hjvgrsp65jW2T-1h2KQ) from Dr. Tang Lv) (fetch code is `lanw`).
+3. run main.m ([Source Code](https://pan.baidu.com/s/1HxRlvOO1DrEkzJP0mGNgJA) and fetch code is `k2v6`).
+4. This code is provided by [Dr. Tang Lv](https://arxiv.org/pdf/2108.03551.pdf). Thanks very much!
 
 
 ## Related Citations
