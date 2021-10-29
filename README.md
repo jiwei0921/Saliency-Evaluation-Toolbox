@@ -35,7 +35,10 @@ You can easily use this Tool Box to evaluate SOD results.
 1. run ./0 PR/code_bar.m or code_or.m    
 
       
-
+## Boundary-aware Metrics 
+1. It contains Bu and BDE, which borrows from [this paper](https://arxiv.org/pdf/2108.03551.pdf).
+2. Set the path of GT and sal_map in main.m
+3. run main.m ([Code](https://pan.baidu.com/s/1f6-Hjvgrsp65jW2T-1h2KQ) from Dr. Tang Lv) (fetch code is `lanw`).
 
 
 ## Related Citations
@@ -74,5 +77,14 @@ You can easily use this Tool Box to evaluate SOD results.
 	booktitle="IJCAI 2018: 27th International Joint Conference on Artificial Intelligence",
 	pages="698--704",
 	year="2018"
+}
+```
+```
+@inproceedings{zhang2020weakly,
+  title={Weakly-supervised salient object detection via scribble annotations},
+  author={Zhang, Jing and Yu, Xin and Li, Aixuan and Song, Peipei and Liu, Bowen and Dai, Yuchao},
+  booktitle={Proceedings of the IEEE/CVF conference on computer vision and pattern recognition},
+  pages={12546--12555},
+  year={2020}
 }
 ```
